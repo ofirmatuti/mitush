@@ -17,7 +17,6 @@ public class Server {
         while ( option != 6 ){
             // getting command by option
             AbstractCommand command = commandMap.get(option);
-
             //executing the command
             command.execute();
 
